@@ -1,0 +1,141 @@
+.delivery {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+  }
+  
+  .sidebar {
+    width: 245px;
+    height: 100vh;
+    flex-shrink: 0;
+    background-color: #1e2640;
+  }
+  
+  .logobox {
+    display: flex;
+    width: 150px;
+    height: 42px;
+    padding-right: 0px;
+    justify-content: center;
+    align-items: center;
+    gap: 9.837px;
+    flex-shrink: 0;
+    margin: 24px 50px 0px 24px;
+  }
+  
+  .logo {
+    width: 42px;
+    height: 42px;
+    flex-shrink: 0;
+  }
+  
+  .name {
+    width: 98.163px;
+    height: 22.397px;
+    flex-shrink: 0;
+  }
+  
+  .homelink {
+    width: 224px;
+    height: 42px;
+    margin-top: 42px;
+    opacity: 0.8;
+  }
+  
+  .deliverylink{
+    width: 224px;
+    height: 42px;
+    
+    
+  }
+  
+ .deliverylinkbox{
+    /* border: 2px solid white; */
+    width: 192px;
+    height: 42px;
+    flex-shrink: 0;
+    border-radius: 4px;
+    color: white;
+    margin: 0px 12px;
+    cursor: pointer;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    gap: 10px;
+    padding-left: 16px;
+    background-color: #2e3858;
+   
+  }
+  
+  
+  .orderslink ,
+  .productslink,
+  .marketinglink,
+  .paymentslink,
+  .toolslink,
+  .discountslink,
+  .customerslink,
+  .appearancelink,
+  .pluginslink {
+    width: 224px;
+    height: 42px;
+    opacity: 0.8;
+  }
+  
+  .homelinkbox,
+  .orderslinkbox ,
+  .productslinkbox,
+  .marketinglinkbox,
+  .paymentslinkbox,
+  .toolslinkbox,
+  .discountslinkbox,
+  .customerslinkbox,
+  .appearancelinkbox,
+  .pluginslinkbox {
+    /* border: 2px solid white; */
+    width: 192px;
+    height: 42px;
+    flex-shrink: 0;
+    border-radius: 4px;
+    color: white;
+    margin: 0px 12px;
+    cursor: pointer;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    gap: 10px;
+    padding-left: 16px;
+  }
+
+  .valletbox {
+    width: 192px;
+    height: 50px;
+    margin: 0px 12px;
+    margin-top: 160px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 4px;
+    background: rgba(255, 255, 255, 0.1);
+    color: white;
+    padding:5px 10px;
+  }
+  
+  .valletbox_svg{
+    border-radius: 4px;
+    background: rgba(255, 255, 255, 0.10);
+    padding:5px 10px;
+  
+  }
+  
+  .valletbox_para{
+    text-align: left;
+  }
+  
+  
+  .mainbox {
+    width: 1440px;
+    height: 100vh;
+  }
+  
