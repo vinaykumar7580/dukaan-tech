@@ -1,6 +1,6 @@
 
 
-import Navbar from "../Components/Navbar";
+
 import PaymentsSidebar from "../Components/PaymentsSidebar";
 
 
@@ -15,7 +15,7 @@ function Payments() {
        <PaymentsSidebar/>
       </div>
       <div className={style.mainbox}>
-        <Navbar/>
+        
       </div>
     </div>
   );

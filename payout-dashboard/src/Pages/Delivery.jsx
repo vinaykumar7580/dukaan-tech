@@ -1,6 +1,6 @@
 
 import DeliverySidebar from "../Components/DeliverySidebar";
-import Navbar from "../Components/Navbar";
+
 
 import style from "../Styles/delivery.module.css"
 
@@ -13,7 +13,7 @@ function Delivery() {
        <DeliverySidebar/>
       </div>
       <div className={style.mainbox}>
-        <Navbar/>
+     
       </div>
     </div>
   );

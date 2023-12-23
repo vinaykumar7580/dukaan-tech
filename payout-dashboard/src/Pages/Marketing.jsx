@@ -1,7 +1,7 @@
 
 
 import MarketingSidebar from "../Components/MarketingSidebar";
-import Navbar from "../Components/Navbar";
+
 
 
 import style from "../Styles/marketing.module.css"
@@ -15,7 +15,7 @@ function Marketing() {
        <MarketingSidebar/>
       </div>
       <div className={style.mainbox}>
-        <Navbar/>
+       
       </div>
     </div>
   );

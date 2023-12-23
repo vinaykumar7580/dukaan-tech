@@ -1,5 +1,5 @@
 
-import Navbar from "../Components/Navbar";
+
 import OrdersSidebar from "../Components/OrdersSidebar";
 import style from "../Styles/orders.module.css"
 
@@ -12,7 +12,7 @@ function Orders() {
        <OrdersSidebar/>
       </div>
       <div className={style.mainbox}>
-        <Navbar/>
+        
       </div>
     </div>
   );
